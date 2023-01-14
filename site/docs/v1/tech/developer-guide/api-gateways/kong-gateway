@@ -13,7 +13,7 @@ navcategory: developer
 
 * A FusionAuth instance running on a publicly accessible URL. You can spin up a link:/pricing[basic FusionAuth Cloud instance] or link:/docs/v1/tech/installation-guide/[install it on any server].
 * A Kong Gateway instance, with service routes. You can follow the Kong quickstart guide at link:https://docs.konghq.com/gateway/3.1.x/get-started/[to setup Kong locally]
-
+** Note: if the terminal seems to hang after outputting `Debugging info logged to 'kong-quickstart.log'`, it may be having trouble connecting to Docker. Try link:<todo>[resetting Docker to factory defaults] to solve this issue.
 
 == Protect a service using JWT
 
